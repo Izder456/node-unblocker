@@ -32,20 +32,7 @@ fixes to go in the examples folder.
 
 ## Running the website on your computer
 
-Requires [node.js](http://nodejs.org/) >= 6
-Then [download node-unblocker](https://github.com/nfriedly/node-unblocker/archive/master.zip),
-`cd` into the `examples/nodeunblocker.com/` directory,
-and run `npm install` to set things up.
-Then run `npm start` to start the server. It should spawn a new instance for each CPU
-core you have.
-
-(Note: running `node app.js` *will not work*. The server code is in the [Gatling](https://npmjs.org/package/gatling)
-package, which the `npm start` command calls automatically.)
-
-## Running the website on heroku/bluemix/modulous/etc
-
-This project should be runnable on a free [Heroku](http://www.heroku.com/) instance without
-modification - just copy the `examples/nodeunblocker.com/` folder to a new git repo and push it.
+See https://github.com/nfriedly/nodeunblocker.com
 
 ## Using unblocker as a library in your software
 
@@ -296,7 +283,8 @@ If you're using Nginx as a reverse proxy, you probably need to disable `merge_sl
 
 ## AGPL-3.0 License
 This project is released under the terms of the [GNU Affero General Public License version 3](https://www.gnu.org/licenses/agpl-3.0.html).
-All source code is copyright Nathan Friedly.
+
+All source code is copyright [Nathan Friedly](http://nfriedly.com/).
 
 Commercial licensing and support are also available, contact Nathan Friedly (nathan@nfriedly.com) for details.
 
